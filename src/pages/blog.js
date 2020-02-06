@@ -17,10 +17,10 @@ const BlogPage = () => {
       }
     }
   `)
-  const postLinks = data.allMarkdownRemark.edges.map(blogLink => {
-    const { title, date } = blogLink.node.frontmatter
+  const postLinks = data.allMarkdownRemark.edges.map(({ node }) => {
+    const { title, date } = node.frontmatter
     return (
-      <li>
+      <li key={title}>
         <h2>{title}</h2>
         <p>{date}</p>
       </li>
