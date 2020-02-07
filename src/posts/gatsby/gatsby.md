@@ -5,6 +5,8 @@ date: "2020-02-06"
 
 New Bootcamp
 
+![Grass](./grass-pictures.jpg)
+
 ### Topics
 
 1. Gatsby
