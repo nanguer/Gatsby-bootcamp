@@ -10,6 +10,7 @@ module.exports = {
     author: "jaguarDEV",
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-source-contentful",
       options: {
